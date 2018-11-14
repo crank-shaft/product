@@ -15,16 +15,9 @@
 		<link rel="stylesheet" href="animate.min.css">
 		
 		<script>
-			jQuery(function($){
-				//プリロード
-				function mypreload() {
-					for(var i = 0; i< arguments.length; i++){
-						$("<img>").attr("src", arguments[i]);
-					}
-				}
-				mypreload('img/yolanda-sun-40675-unsplash.jpg');
-			});
-			</script>
+			$('<img src="img/yolanda-sun-40675-unsplash.jpg">');
+			$('<img src="img/drew-beamer-679505-unsplash.jpg">');
+		</script>
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: rgba(0,0,0,0.6);">
